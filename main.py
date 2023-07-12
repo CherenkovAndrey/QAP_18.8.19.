@@ -12,7 +12,7 @@ while visitors != tickets:
     visitors += 1
     age = -1
     while age < 0:
-        age = int(input("Укажите возраст поситителя № " + str(visitors) + ": "))
+        age = int(input("Укажите возраст посетителя № " + str(visitors) + ": "))
         if 0 <= age < 18:
             price += 0
         elif 18 <= age < 25:
